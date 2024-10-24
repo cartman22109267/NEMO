@@ -1,0 +1,94 @@
+.profile{
+    flex: 1
+}
+.profile--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit{
+    background: #dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+    color: #969393;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit .icon{
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+.user--profile{
+    height: 85%;
+    margin-top: 2rem;
+    background: #dde6ed;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.user--detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+}
+.user--detail .user{
+    color: #969393;
+    width: 150px;
+    height: 90px;
+}
+.user--detail .username{
+    color: #526d82;
+}
+.user--gestion{
+    background: #fff;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    gap: 10px;
+
+}
+.gestion:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+.gestion{
+    background: #dde6ed;
+    transition: 0.5s ease-in-out;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.gestion--detail{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.gestion--cover{
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.gestion .role{
+    font-size: 12px;
+}
+.gestion .action{
+    color: #526d82;
+}
+.poste{
+    color: #969393;
+}
